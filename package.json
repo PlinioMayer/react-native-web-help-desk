@@ -1,0 +1,28 @@
+{
+  "name": "react-native-web-help-desk",
+  "version": "1.0.0",
+  "description": "React Native package to integrate to web help desks like Zendesk and Freescout.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project .",
+    "prepare": "yarn build"
+  },
+  "repository": "https://github.com/PlinioMayer/react-native-web-help-desk",
+  "author": "Plínio Mayer",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "^17.0.43",
+    "@types/react-native": "^0.67.3",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.12.0",
+    "eslint-plugin-react": "^7.29.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "react-native-safe-area-context": "^4.2.4",
+    "react-native-webview": "^11.18.1"
+  }
+}
