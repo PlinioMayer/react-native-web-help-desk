@@ -1,6 +1,6 @@
 {
-  "name": "react-native-web-help-desk-test",
-  "version": "1.0.3",
+  "name": "react-native-web-help-desk",
+  "version": "1.0.0",
   "description": "React Native package to integrate to web help desks like Zendesk and Freescout.",
   "main": "dist/index.js",
   "scripts": {
