@@ -16,7 +16,6 @@ export type WebHelpDeskConfig = AbsoluteWebHelpDeskConfig | ModalWebHelpDeskConf
 export type CommonWebHelpDeskConfig = {
     uri: string;
     activityIndicatorEnabled?: boolean;
-    modalProps?: ModalProps;
     activityIndicatorProps?: ActivityIndicatorProps;
     webViewProps?: WebViewProps;
     initScript?: string;
@@ -30,6 +29,7 @@ export type AbsoluteWebHelpDeskConfig = CommonWebHelpDeskConfig & {
 
 export type ModalWebHelpDeskConfig = CommonWebHelpDeskConfig & {
     useModal?: true;
+    modalProps?: ModalProps;
 }
 
 export type AbsoluteWebHelpDeskComponentProps = AbsoluteWebHelpDeskConfig & {
