@@ -51,8 +51,8 @@ website, maybe an IP address like `https://171.68.22.118/help-desk`, or a html f
     <title>Chat</title>
     <script src="<url to load your help desk widget>"></script>
 
+    <!-- This will allow using the native activity indicator in the background of the webview -->
     <style>
-        <!-- This will allow using the native activity indicator in the background of the webview -->
         body {
             background-color: transparent;
         }
